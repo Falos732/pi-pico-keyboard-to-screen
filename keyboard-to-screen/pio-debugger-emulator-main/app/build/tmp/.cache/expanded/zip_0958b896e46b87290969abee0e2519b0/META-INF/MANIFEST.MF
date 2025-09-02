@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Build-Jdk-Spec: 17
+Automatic-Module-Name: org.jline.style
+Bundle-Description: JLine
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: JLine Style
+Bundle-SymbolicName: org.jline.style
+Bundle-Version: 3.23.0
+Export-Package: org.jline.style;uses:="javax.annotation,org.jline.termin
+ al,org.jline.utils";version="3.23.0"
+Import-Package: javax.annotation;version="[3.0,4)";resolution:=optional,
+ org.jline.terminal;version="[3.23,4)",org.jline.utils;version="[3.23,4)
+ "
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+

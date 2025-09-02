@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Build-Jdk-Spec: 17
+Automatic-Module-Name: org.jline.terminal
+Bundle-Description: JLine
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: JLine Terminal
+Bundle-SymbolicName: org.jline.terminal
+Bundle-Version: 3.23.0
+Export-Package: org.jline.terminal;uses:="org.jline.utils";version="3.23
+ .0",org.jline.terminal.impl;uses:="org.jline.terminal,org.jline.termina
+ l.spi,org.jline.utils";version="3.23.0",org.jline.terminal.impl.exec;us
+ es:="org.jline.terminal,org.jline.terminal.spi";version="3.23.0",org.jl
+ ine.terminal.spi;uses:="org.jline.terminal";version="3.23.0",org.jline.
+ utils;uses:="org.jline.terminal,org.jline.terminal.impl";version="3.23.
+ 0"
+Import-Package: sun.misc;resolution:=optional,org.jline.nativ;version="[
+ 3.23,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+

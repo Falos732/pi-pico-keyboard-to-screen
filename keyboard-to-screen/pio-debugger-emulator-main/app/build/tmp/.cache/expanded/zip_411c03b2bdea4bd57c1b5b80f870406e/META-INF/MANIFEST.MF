@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Build-Jdk-Spec: 17
+Automatic-Module-Name: org.jline.nativ
+Bundle-Description: JLine
+Bundle-License: https://opensource.org/licenses/BSD-3-Clause
+Bundle-ManifestVersion: 2
+Bundle-Name: JLine Native Library
+Bundle-SymbolicName: org.jline.native
+Bundle-Version: 3.23.0
+Export-Package: org.jline.nativ;version="3.23.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+
