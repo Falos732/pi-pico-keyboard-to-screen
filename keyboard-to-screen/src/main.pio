@@ -1,0 +1,21 @@
+.program blink_led_1s
+.wrap_target
+
+    set pins, 1 [31]       ; LED ON
+    set y, 31              ; Outer loop
+outer_on:
+        set x, 31          ; Inner loop
+inner_on:
+        nop [31]           ; 32 cycles
+        jmp x-- inner_on
+        jmp y-- outer_on
+
+    set pins, 0 [31]       ; LED OFF
+    set y, 31
+outer_off:
+        set x, 31
+inner_off:
+        nop [31]
+        jmp x-- inner_off
+        jmp y-- outer_off
+.wrap
