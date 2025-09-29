@@ -57,3 +57,12 @@ pour compiler du code PIO : https://github.com/raspberrypi/pico-sdk
 https://github.com/raspberrypi/pico-setup-windows/releases/latest/download/pico-setup-windows-x64-standalone.exe  
 
 extension necessaire : Java, plateformIO
+
+cmake .. -G Ninja -DPICO_BOARD=pico -DPICO_SDK_FETCH_FROM_GIT=on
+
+git clone https://github.com/raspberrypi/pico-sdk.git
+git submodule update --init
+
+git clone https://github.com/sekigon-gonnoc/Pico-PIO-USB.git
+
+https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-mingw-w64-x86_64-arm-none-eabi.exe

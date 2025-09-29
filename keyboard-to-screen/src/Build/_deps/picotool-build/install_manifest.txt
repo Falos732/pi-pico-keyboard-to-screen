@@ -1,0 +1,7 @@
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool/picotool.exe
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool/picotoolTargets.cmake
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool/picotoolTargets-debug.cmake
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool/picotoolConfig.cmake
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool/picotoolConfigVersion.cmake
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool/enc_bootloader.elf
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool/enc_bootloader_mbedtls.elf

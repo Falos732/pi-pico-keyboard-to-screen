@@ -1,0 +1,2 @@
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/enc_bootloader/CMakeFiles/edit_cache.dir
+C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/enc_bootloader/CMakeFiles/rebuild_cache.dir

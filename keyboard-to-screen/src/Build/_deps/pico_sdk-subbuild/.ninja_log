@@ -1,0 +1,21 @@
+# ninja log v7
+1	37	7799201375548816	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-mkdir	3cae17d34b250a5f
+1	37	7799201375548816	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-mkdir	3cae17d34b250a5f
+1	27383	7799202000851868	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-download	afc73d39d3a1a4f3
+1	27383	7799202000851868	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-download	afc73d39d3a1a4f3
+27383	29171	7799202000901875	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-update	7c4b3185b94671b5
+27383	29171	7799202000901875	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-update	7c4b3185b94671b5
+29171	29210	7799202019131868	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-patch	8f7739bcbfd8faab
+29171	29210	7799202019131868	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-patch	8f7739bcbfd8faab
+29210	29247	7799202019497117	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-configure	6b7bb9643f07f6ce
+29210	29247	7799202019497117	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-configure	6b7bb9643f07f6ce
+29247	29283	7799202019857139	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-build	c6d9554b0c4e9ad8
+29247	29283	7799202019857139	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-build	c6d9554b0c4e9ad8
+29283	29320	7799202020228420	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-install	19d0d0265b500e51
+29283	29320	7799202020228420	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-install	19d0d0265b500e51
+29320	29356	7799202020598342	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-test	ca9372b082feaa94
+29320	29356	7799202020598342	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-test	ca9372b082feaa94
+29356	29411	7799202021138431	CMakeFiles/pico_sdk-populate-complete	4bb76ab237872b6f
+29356	29411	7799202021138431	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-done	4bb76ab237872b6f
+29356	29411	7799202021138431	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate-complete	4bb76ab237872b6f
+29356	29411	7799202021138431	C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-done	4bb76ab237872b6f
