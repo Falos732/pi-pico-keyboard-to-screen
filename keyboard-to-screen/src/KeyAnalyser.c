@@ -176,14 +176,14 @@ void print_summary() {
     printf("╔════════════════════════════════════════════════╗\n");
     printf("║       RÉSUMÉ DES ÉVÉNEMENTS CAPTURÉS          ║\n");
     printf("╚════════════════════════════════════════════════╝\n");
-    printf("Total d'événements: %d\n\n", report_count);
+    printf("Total d'événements:%u\n\n", (unsigned)report_count);
     
     // Reconstruire le texte tapé
     printf("Texte reconstitué:\n");
     printf("─────────────────\n");
     
     for (uint32_t i = 0; i < report_count; i++) {
-        bool shift = (reports[i].modifier & 0x22) != 0;
+        bool shift = (reports[i].modifier& (KEYBOARD_MODIFIER_LEFTSHIFT | KEYBOARD_MODIFIER_RIGHTSHIFT));
         
         for (int j = 0; j < 6; j++) {
             if (reports[i].keycodes[j] != 0) {
@@ -242,11 +242,16 @@ int main() {
     
     // Boucle principale
     while (true) {
+        static uint32_t last_frame = 0;
+        uint32_t now = to_ms_since_boot(get_absolute_time());
+        if (now - last_frame >= 1) {
+            pio_usb_host_frame();
+            last_frame = now;
+        }
         // Traiter les événements USB
         tuh_task();
         
         // Afficher un résumé toutes les 30 secondes si des événements existent
-        uint32_t now = to_ms_since_boot(get_absolute_time());
         if (report_count > 0 && (now - last_summary) > 30000) {
             print_summary();
             last_summary = now;

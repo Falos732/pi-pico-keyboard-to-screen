@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "queue": "c",
+        "stack": "c",
+        "random": "c"
+    }
+}
