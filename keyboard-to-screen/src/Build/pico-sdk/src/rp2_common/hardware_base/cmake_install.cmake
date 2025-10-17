@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-src/src/rp2_common/hardware_base
+# Install script for directory: F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/pico_sdk-src/src/rp2_common/hardware_base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/keyboard_signal_capture")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_usb_host")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/pico-sdk/src/rp2_common/hardware_base/install_local_manifest.txt"
+  file(WRITE "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pico-sdk/src/rp2_common/hardware_base/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,7 +1,7 @@
 # Distributed under the OSI-approved BSD 3-Clause License.  See accompanying
-# file LICENSE.rst or https://cmake.org/licensing for details.
+# file Copyright.txt or https://cmake.org/licensing for details.
 
-cmake_minimum_required(VERSION 4.1.1)
+cmake_minimum_required(VERSION 3.31.6-msvc6)
 
 # Reject any attempt to use a toolchain file. We must not use one because
 # we could be downloading it here. If the CMAKE_TOOLCHAIN_FILE environment
@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(picotool-populate
                      "GIT_REPOSITORY" "https://github.com/raspberrypi/picotool.git" "GIT_TAG" "2.2.0"
-                    SOURCE_DIR          "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-src"
-                    BINARY_DIR          "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build"
+                    SOURCE_DIR          "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-src"
+                    BINARY_DIR          "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -1,0 +1,5 @@
+F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pioasm-install/pioasm/pioasm.exe
+F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pioasm-install/pioasm/pioasmTargets.cmake
+F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pioasm-install/pioasm/pioasmTargets-debug.cmake
+F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pioasm-install/pioasm/pioasmConfig.cmake
+F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-src/src/common/pico_usb_reset_interface_headers
+# Install script for directory: F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/pico_sdk-src/src/common/pico_usb_reset_interface_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps")
+  set(CMAKE_INSTALL_PREFIX "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/pico_usb_reset_interface_headers/install_local_manifest.txt"
+  file(WRITE "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/pico_usb_reset_interface_headers/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

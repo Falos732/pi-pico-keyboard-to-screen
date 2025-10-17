@@ -2,6 +2,6 @@
 # The patch step will be re-executed if anything in this file changes.
 # No other meaning or use of this file is supported.
 
-command (connected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/tmp/pico_sdk-populate-gitupdate.cmake
-command (disconnected)=C:/Program Files/CMake/bin/cmake.exe;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/tmp/pico_sdk-populate-gitupdate.cmake
-work_dir=C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/pico_sdk-src
+command (connected)=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-Dcan_fetch=YES;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/tmp/pico_sdk-populate-gitupdate.cmake
+command (disconnected)=C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-Dcan_fetch=NO;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/tmp/pico_sdk-populate-gitupdate.cmake
+work_dir=F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/pico_sdk-src

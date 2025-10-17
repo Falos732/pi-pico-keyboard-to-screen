@@ -14,6 +14,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 pico_sdk_init()
 
+include_directories(${CMAKE_CURRENT_LIST_DIR}/src)
+
 # Télécharger PIO-USB si pas présent
 if(NOT EXISTS ${CMAKE_CURRENT_LIST_DIR}/Pico-PIO-USB)
     message(STATUS "Téléchargement de Pico-PIO-USB...")
@@ -24,11 +26,12 @@ if(NOT EXISTS ${CMAKE_CURRENT_LIST_DIR}/Pico-PIO-USB)
 endif()
 
 # Ajouter PIO-USB
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/Pico-PIO-USB/src ${CMAKE_BINARY_DIR}/pio_usb)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/Pico-PIO-USB ${CMAKE_BINARY_DIR}/pio_usb)
 
 # Exécutable
 add_executable(usb_host_keyboard
-    main.c
+    KeyAnalyser.c
+    tusb_hcd_pio_usb.c
 )
 
 # Options de compilation pour PIO-USB
@@ -59,7 +62,19 @@ target_link_libraries(usb_host_keyboard
     pico_stdlib
     tinyusb_host
     tinyusb_board
-    pio_usb
+    pico_pio_usb
+)
+target_link_libraries(pico_pio_usb INTERFACE
+    pico_stdlib
+    hardware_pio
+    hardware_dma
+    hardware_irq
+    hardware_clocks
+)
+
+target_include_directories(usb_host_keyboard PRIVATE
+    ${CMAKE_CURRENT_LIST_DIR}
+    ${CMAKE_CURRENT_LIST_DIR}/Pico-PIO-USB/src
 )
 
 # Overclock à 120MHz (recommandé pour PIO-USB)

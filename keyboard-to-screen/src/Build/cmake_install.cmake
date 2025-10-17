@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src
+# Install script for directory: F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/keyboard_signal_capture")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_usb_host")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,14 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/pico-sdk/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pico-sdk/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/pio_usb/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/install_local_manifest.txt"
+  file(WRITE "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +63,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

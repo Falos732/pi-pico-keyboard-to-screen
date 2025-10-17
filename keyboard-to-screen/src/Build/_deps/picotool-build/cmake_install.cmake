@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-src
+# Install script for directory: F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps")
+  set(CMAKE_INSTALL_PREFIX "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,14 +33,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE EXECUTABLE MESSAGE_NEVER FILES "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/picotool.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE EXECUTABLE MESSAGE_NEVER FILES "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/picotool.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotoolTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotoolTargets.cmake"
-         "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/CMakeFiles/Export/4428c4be664630400018e610c73b3270/picotoolTargets.cmake")
+         "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/CMakeFiles/Export/4428c4be664630400018e610c73b3270/picotoolTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/picotool/picotoolTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -53,49 +53,49 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/CMakeFiles/Export/4428c4be664630400018e610c73b3270/picotoolTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/CMakeFiles/Export/4428c4be664630400018e610c73b3270/picotoolTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/CMakeFiles/Export/4428c4be664630400018e610c73b3270/picotoolTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/CMakeFiles/Export/4428c4be664630400018e610c73b3270/picotoolTargets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES
-    "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/picotoolConfig.cmake"
-    "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/picotoolConfigVersion.cmake"
+    "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/picotoolConfig.cmake"
+    "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/picotoolConfigVersion.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/enc_bootloader/enc_bootloader.elf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER FILES "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/enc_bootloader/enc_bootloader.elf")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER RENAME "enc_bootloader_mbedtls.elf" FILES "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/enc_bootloader_mbedtls/enc_bootloader.elf")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/picotool" TYPE FILE MESSAGE_NEVER RENAME "enc_bootloader_mbedtls.elf" FILES "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/enc_bootloader_mbedtls/enc_bootloader.elf")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/lib/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/errors/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/picoboot_connection/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/elf/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/elf2uf2/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/bintool/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/pico_binary_info/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/boot_uf2_headers/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/boot_picoboot_headers/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/boot_picobin_headers/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/pico_usb_reset_interface_headers/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/boot_bootrom_headers/cmake_install.cmake")
-  include("C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/pico_platform/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/lib/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/errors/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/picoboot_connection/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/elf/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/elf2uf2/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/bintool/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/pico_binary_info/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/boot_uf2_headers/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/boot_picoboot_headers/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/boot_picobin_headers/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/pico_usb_reset_interface_headers/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/boot_bootrom_headers/cmake_install.cmake")
+  include("F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/pico_platform/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/install_local_manifest.txt"
+  file(WRITE "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -111,6 +111,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

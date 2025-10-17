@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=C:/Users/Utilisateur/Desktop/pi-pico-keyboard-to-screen/keyboard-to-screen/src/Build/_deps/picotool-src/enc_bootloader
+source_dir=F:/pi-pico-keyboard-to-screen/keyboard-to-screen/src/build/_deps/picotool-src/enc_bootloader
 work_dir=
 
