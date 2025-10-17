@@ -1,0 +1,3 @@
+[submodule "keyboard-to-screen/src/lib/pio_usb"]
+	path = keyboard-to-screen/src/lib/pio_usb
+	url = https://github.com/sekigon-gonnoc/Pico-PIO-USB.git
